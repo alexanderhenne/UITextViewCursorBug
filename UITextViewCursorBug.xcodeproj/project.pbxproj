@@ -13,27 +13,7 @@
 		BF4F5F8D29C9D11000DAEA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4F5F8B29C9D11000DAEA8A /* Main.storyboard */; };
 		BF4F5F8F29C9D11100DAEA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4F5F8E29C9D11100DAEA8A /* Assets.xcassets */; };
 		BF4F5F9229C9D11100DAEA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4F5F9029C9D11100DAEA8A /* LaunchScreen.storyboard */; };
-		BF4F5F9D29C9D11100DAEA8A /* UITextViewCursorBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F5F9C29C9D11100DAEA8A /* UITextViewCursorBugTests.swift */; };
-		BF4F5FA729C9D11200DAEA8A /* UITextViewCursorBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F5FA629C9D11200DAEA8A /* UITextViewCursorBugUITests.swift */; };
-		BF4F5FA929C9D11200DAEA8A /* UITextViewCursorBugUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4F5FA829C9D11200DAEA8A /* UITextViewCursorBugUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BF4F5F9929C9D11100DAEA8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF4F5F7A29C9D11000DAEA8A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF4F5F8129C9D11000DAEA8A;
-			remoteInfo = UITextViewCursorBug;
-		};
-		BF4F5FA329C9D11200DAEA8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF4F5F7A29C9D11000DAEA8A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF4F5F8129C9D11000DAEA8A;
-			remoteInfo = UITextViewCursorBug;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF4F5F8229C9D11000DAEA8A /* UITextViewCursorBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextViewCursorBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,29 +24,10 @@
 		BF4F5F8E29C9D11100DAEA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4F5F9129C9D11100DAEA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4F5F9329C9D11100DAEA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF4F5F9829C9D11100DAEA8A /* UITextViewCursorBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewCursorBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4F5F9C29C9D11100DAEA8A /* UITextViewCursorBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewCursorBugTests.swift; sourceTree = "<group>"; };
-		BF4F5FA229C9D11200DAEA8A /* UITextViewCursorBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITextViewCursorBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF4F5FA629C9D11200DAEA8A /* UITextViewCursorBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewCursorBugUITests.swift; sourceTree = "<group>"; };
-		BF4F5FA829C9D11200DAEA8A /* UITextViewCursorBugUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewCursorBugUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BF4F5F7F29C9D11000DAEA8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4F5F9529C9D11100DAEA8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4F5F9F29C9D11200DAEA8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				BF4F5F8429C9D11000DAEA8A /* UITextViewCursorBug */,
-				BF4F5F9B29C9D11100DAEA8A /* UITextViewCursorBugTests */,
-				BF4F5FA529C9D11200DAEA8A /* UITextViewCursorBugUITests */,
 				BF4F5F8329C9D11000DAEA8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				BF4F5F8229C9D11000DAEA8A /* UITextViewCursorBug.app */,
-				BF4F5F9829C9D11100DAEA8A /* UITextViewCursorBugTests.xctest */,
-				BF4F5FA229C9D11200DAEA8A /* UITextViewCursorBugUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,23 +65,6 @@
 				BF4F5F9329C9D11100DAEA8A /* Info.plist */,
 			);
 			path = UITextViewCursorBug;
-			sourceTree = "<group>";
-		};
-		BF4F5F9B29C9D11100DAEA8A /* UITextViewCursorBugTests */ = {
-			isa = PBXGroup;
-			children = (
-				BF4F5F9C29C9D11100DAEA8A /* UITextViewCursorBugTests.swift */,
-			);
-			path = UITextViewCursorBugTests;
-			sourceTree = "<group>";
-		};
-		BF4F5FA529C9D11200DAEA8A /* UITextViewCursorBugUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BF4F5FA629C9D11200DAEA8A /* UITextViewCursorBugUITests.swift */,
-				BF4F5FA829C9D11200DAEA8A /* UITextViewCursorBugUITestsLaunchTests.swift */,
-			);
-			path = UITextViewCursorBugUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +87,6 @@
 			productReference = BF4F5F8229C9D11000DAEA8A /* UITextViewCursorBug.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF4F5F9729C9D11100DAEA8A /* UITextViewCursorBugTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF4F5FAF29C9D11200DAEA8A /* Build configuration list for PBXNativeTarget "UITextViewCursorBugTests" */;
-			buildPhases = (
-				BF4F5F9429C9D11100DAEA8A /* Sources */,
-				BF4F5F9529C9D11100DAEA8A /* Frameworks */,
-				BF4F5F9629C9D11100DAEA8A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF4F5F9A29C9D11100DAEA8A /* PBXTargetDependency */,
-			);
-			name = UITextViewCursorBugTests;
-			productName = UITextViewCursorBugTests;
-			productReference = BF4F5F9829C9D11100DAEA8A /* UITextViewCursorBugTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BF4F5FA129C9D11200DAEA8A /* UITextViewCursorBugUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF4F5FB229C9D11200DAEA8A /* Build configuration list for PBXNativeTarget "UITextViewCursorBugUITests" */;
-			buildPhases = (
-				BF4F5F9E29C9D11200DAEA8A /* Sources */,
-				BF4F5F9F29C9D11200DAEA8A /* Frameworks */,
-				BF4F5FA029C9D11200DAEA8A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF4F5FA429C9D11200DAEA8A /* PBXTargetDependency */,
-			);
-			name = UITextViewCursorBugUITests;
-			productName = UITextViewCursorBugUITests;
-			productReference = BF4F5FA229C9D11200DAEA8A /* UITextViewCursorBugUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					BF4F5F8129C9D11000DAEA8A = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					BF4F5F9729C9D11100DAEA8A = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = BF4F5F8129C9D11000DAEA8A;
-					};
-					BF4F5FA129C9D11200DAEA8A = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = BF4F5F8129C9D11000DAEA8A;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				BF4F5F8129C9D11000DAEA8A /* UITextViewCursorBug */,
-				BF4F5F9729C9D11100DAEA8A /* UITextViewCursorBugTests */,
-				BF4F5FA129C9D11200DAEA8A /* UITextViewCursorBugUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +128,6 @@
 				BF4F5F9229C9D11100DAEA8A /* LaunchScreen.storyboard in Resources */,
 				BF4F5F8F29C9D11100DAEA8A /* Assets.xcassets in Resources */,
 				BF4F5F8D29C9D11000DAEA8A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4F5F9629C9D11100DAEA8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4F5FA029C9D11200DAEA8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF4F5F9429C9D11100DAEA8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF4F5F9D29C9D11100DAEA8A /* UITextViewCursorBugTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF4F5F9E29C9D11200DAEA8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF4F5FA729C9D11200DAEA8A /* UITextViewCursorBugUITests.swift in Sources */,
-				BF4F5FA929C9D11200DAEA8A /* UITextViewCursorBugUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BF4F5F9A29C9D11100DAEA8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF4F5F8129C9D11000DAEA8A /* UITextViewCursorBug */;
-			targetProxy = BF4F5F9929C9D11100DAEA8A /* PBXContainerItemProxy */;
-		};
-		BF4F5FA429C9D11200DAEA8A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF4F5F8129C9D11000DAEA8A /* UITextViewCursorBug */;
-			targetProxy = BF4F5FA329C9D11200DAEA8A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BF4F5F8B29C9D11000DAEA8A /* Main.storyboard */ = {
@@ -366,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -445,6 +295,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +324,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,82 +335,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BF4F5FB029C9D11200DAEA8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3N36C74KUJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = placeholder.UITextViewCursorBugTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextViewCursorBug.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UITextViewCursorBug";
-			};
-			name = Debug;
-		};
-		BF4F5FB129C9D11200DAEA8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3N36C74KUJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = placeholder.UITextViewCursorBugTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITextViewCursorBug.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UITextViewCursorBug";
-			};
-			name = Release;
-		};
-		BF4F5FB329C9D11200DAEA8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3N36C74KUJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = placeholder.UITextViewCursorBugUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UITextViewCursorBug;
-			};
-			name = Debug;
-		};
-		BF4F5FB429C9D11200DAEA8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3N36C74KUJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = placeholder.UITextViewCursorBugUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = UITextViewCursorBug;
 			};
 			name = Release;
 		};
@@ -579,24 +355,6 @@
 			buildConfigurations = (
 				BF4F5FAD29C9D11200DAEA8A /* Debug */,
 				BF4F5FAE29C9D11200DAEA8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF4F5FAF29C9D11200DAEA8A /* Build configuration list for PBXNativeTarget "UITextViewCursorBugTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF4F5FB029C9D11200DAEA8A /* Debug */,
-				BF4F5FB129C9D11200DAEA8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF4F5FB229C9D11200DAEA8A /* Build configuration list for PBXNativeTarget "UITextViewCursorBugUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF4F5FB329C9D11200DAEA8A /* Debug */,
-				BF4F5FB429C9D11200DAEA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
